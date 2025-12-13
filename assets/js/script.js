@@ -112,7 +112,28 @@ $(document).ready(function () {
     ]
   });
 
-
+  $('.testimonial-slider').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 4000,
+        dots: false,
+        arrows: false,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 2
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1
+                }
+            }
+        ]
+    });
 });
 
 
@@ -128,16 +149,27 @@ $(".close").click(function(){
 $(".tab1").click(function(){
   $(".service1").css("display","block");
   $(".service2").css("display","none");
-  $(this).css({"background-color":"#f7c600", "color":"#fff"});
-  $(".tab2").css({"background-color":"transparent", "color":"#242426"});
+   $(".service3").css("display","none");
+  $(this).css({"background-color":"#002e8d", "color":"#fff"});
+  $(".tab2,.tab3").css({"background-color":"transparent", "color":"#242426"});
 });
 
 $(".tab2").click(function(){
   $(".service2").css("display","block");
   $(".service1").css("display","none");
-  $(this).css({"background-color":"#f7c600", "color":"#fff"});
-  $(".tab1").css({"background-color":"transparent", "color":"#242426"});
+  $(".service3").css("display","none");
+  $(this).css({"background-color":"#002e8d", "color":"#fff"});
+  $(".tab1,.tab3").css({"background-color":"transparent", "color":"#242426"});
 });
+
+$(".tab3").click(function(){
+  $(".service3").css("display","block");
+  $(".service1").css("display","none");
+  $(".service2").css("display","none");
+  $(this).css({"background-color":"#002e8d", "color":"#fff"});
+  $(".tab1, .tab2").css({"background-color":"transparent", "color":"#242426"});
+});
+
 
 $(".ser-list1").click(function(){
   $(".ser-item2,.ser-item3,.ser-item4,.ser-item5,.ser-item6").css("display","none");

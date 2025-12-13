@@ -484,13 +484,13 @@ header.header .comp p {
   right: 0;
   width: 49%;
   height: 100%;
-  background-image: url(../images/hero2.jpg);
+  background-image: url(../images/construction-silhouette.jpg);
   background-position: left;
   background-size: cover;
   content: "";
 }
 .hero-slide2::after{
-  background-image: url(../images/hero1.jpg);
+  background-image: url(../images/building-construction.jpg);
 }
 .hero-slide h2{
   font-size: 45px;
@@ -549,9 +549,55 @@ header.header .comp p {
 .form-section{
     display:none;
 }
+/* ------Testimonials-section-start------- */
 
+
+.testimonial-box {
+    background: #f7f9fc;
+    padding: 30px;
+    margin: 10px;
+    border-radius: 12px;
+   
+    text-align: left;
+}
+
+.testimonial-box p {
+    font-size: 15px;
+    color: #555;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+.testimonial-box h4 {
+    margin: 0;
+    font-size: 18px;
+    color: #002e8d;
+}
+
+.testimonial-box span {
+    font-size: 14px;
+    color: #777;
+}
+
+.slick-dots li button:before {
+    color: #002e8d;
+}
+.rating {
+    margin-bottom: 15px;
+}
+
+.rating i {
+    color: #f7c600;
+    font-size: 16px;
+    margin-right: 3px;
+}
+
+/* ------Testimonials-section-end------- */
 /* ------Service-section-end------- */
 .service2{
+  display: none;
+}
+.service3{
   display: none;
 }
 .ser-list ul{
@@ -592,6 +638,7 @@ header.header .comp p {
   height: 280px;
   width: 100%;
   object-fit: cover;
+  border: 2px solid #f20c0d;
 }
 
 .ser-box .ser-item {
@@ -619,7 +666,8 @@ header.header .comp p {
   top: 0;
   transition: 1s;
   content: "";
-  background-color: #fff;
+  background-color: #002e8d;
+  color: #fff;
   z-index: -2;
   left: 0;
 }
@@ -641,6 +689,7 @@ header.header .comp p {
 .ser-box .ser-item p {
   text-align: justify;
   margin-bottom: 10px;
+  color: #fff;
 }
 .ser-box:hover .ser-img img {
   transform: scale(1.1);
@@ -648,11 +697,13 @@ header.header .comp p {
 .ser-box h4 {
   font-size: 20px;
   font-weight: 600;
+  color: #fff;
 }
 .ser-box .ser-icon{
   height: 90px;
   width: 90px;
-  background-color: #002e8d;
+  background-color: #fff;
+  border: 2px solid #002e8d;
   border-radius: 100%;
   position: absolute;
   transition: .5s;
@@ -676,7 +727,7 @@ header.header .comp p {
   filter: brightness(1);
 }
 .ser-box:hover .ser-icon{
-  background-color: #f20c0d;
+  background-color: #fff;
 }
 
 
