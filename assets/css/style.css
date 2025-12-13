@@ -594,12 +594,7 @@ header.header .comp p {
 
 /* ------Testimonials-section-end------- */
 /* ------Service-section-end------- */
-.service2{
-  display: none;
-}
-.service3{
-  display: none;
-}
+
 .ser-list ul{
   padding: 0;
   margin: 0;
@@ -1806,8 +1801,8 @@ h2 {
   .menu .navbar-light .navbar-brand::after{
     height: 100%;
     width: 260px;
-    background-color: #fff;
-    background-image:linear-gradient(#ffffffce,#ffffffce),url(../images/shape.png) ;
+    /* background-color: #fff;
+    background-image:linear-gradient(#ffffffce,#ffffffce),url(../images/shape.png) ; */
     left: -50px;
     content: "";
     position: absolute;
