@@ -1644,7 +1644,7 @@ header.header .comp p {
   display: none;
   width: 100%;
   z-index: 999;
-  background-color: #F9630D;
+  background-color: #773A1D;
 }
 .foot-list ul{
   display: flex;
@@ -1664,7 +1664,7 @@ header.header .comp p {
   display: flex;
   align-items: center;
   text-align: center;
-  background: #F9630D;
+  background: #773A1D;
   color: #fff;
   flex-direction: column;
   justify-content: center;
@@ -1765,7 +1765,7 @@ h2 {
     align-items: center;
     justify-content: center;
     font-size: 25px;
-    color: #fff;
+    color:#F9630D;
   }
   .menu .navbar-light .navbar-toggler-icon{
       background-image:none;
@@ -1826,6 +1826,7 @@ h2 {
 }
   .menu{
     padding: 0px;
+    background-color: #fff;
   }
 
 }
